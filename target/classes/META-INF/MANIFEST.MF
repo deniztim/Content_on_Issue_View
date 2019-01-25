@@ -1,0 +1,40 @@
+Manifest-Version: 1.0
+Atlassian-Build-Date: 2019-01-25T11:36:04+0300
+Atlassian-Plugin-Key: com.example.plugins.tutorial.tutorial-jira-add-con
+ tent-to-view-issue-screen
+Bnd-LastModified: 1548405365362
+Build-Jdk: 1.8.0_191
+Built-By: deniz.timartas
+Bundle-Description: This plugin shows the due date for an issue in a new
+  panel on the View Issue page.
+Bundle-DocURL: http://www.obss.com/
+Bundle-ManifestVersion: 2
+Bundle-Name: Content on Issue View Screen
+Bundle-SymbolicName: com.example.plugins.tutorial.jira-add-content-to-vi
+ ew-issue-screen
+Bundle-Vendor: OBSS Company
+Bundle-Version: 1.0.0.SNAPSHOT
+Created-By: Apache Maven Bundle Plugin
+Export-Package: com.example.plugins.tutorial.api;version="1.0.0"
+Import-Package: org.springframework.osgi.context;resolution:=optional,or
+ g.springframework.osgi.service.exporter.support;resolution:=optional,or
+ g.springframework.osgi.service.importer.support;resolution:=optional,or
+ g.eclipse.gemini.blueprint.context;resolution:=optional,org.eclipse.gem
+ ini.blueprint.service.exporter;resolution:=optional,org.eclipse.gemini.
+ blueprint.service.exporter.support;resolution:=optional,org.eclipse.gem
+ ini.blueprint.service.importer.support;resolution:=optional,com.atlassi
+ an.jira.issue,com.atlassian.jira.plugin.webfragment.contextproviders,co
+ m.atlassian.jira.plugin.webfragment.model,com.atlassian.jira.user,com.a
+ tlassian.plugin.osgi.factory,com.google.common.base,com.google.common.c
+ ollect,javax.annotation,org.apache.commons.lang,org.apache.commons.logg
+ ing,org.osgi.framework,org.springframework.aop.support,org.springframew
+ ork.beans,org.springframework.beans.factory,org.springframework.beans.f
+ actory.annotation,org.springframework.beans.factory.config,org.springfr
+ amework.beans.factory.parsing,org.springframework.beans.factory.support
+ ,org.springframework.beans.factory.xml,org.springframework.context.anno
+ tation,org.springframework.core.io,org.springframework.stereotype,org.s
+ pringframework.util,org.w3c.dom
+Originally-Created-By: Apache Maven Bundle Plugin
+Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=1.8))"
+Spring-Context: *
+Tool: Bnd-2.4.1.201501161923
