@@ -18,7 +18,8 @@
   </web-resource>
   <web-panel name="DueDateIndicator" i18n-name-key="due-date-indicator.name" key="due-date-indicator" location="atl.jira.view.issue.right.context" weight="1000">
     <description key="due-date-indicator.description">The DueDateIndicator Plugin</description>
-    <context-provider class="com.exaample.plugins.tutorial.DueDateIndicator"/>
+    <context-provider class="com.example.plugins.tutorial.DueDateIndicator"/>
+    <label key="due-date-indicator.title"/>
     <resource name="view" type="velocity" location="templates/due-date-indicator.vm"/>
   </web-panel>
 </atlassian-plugin>
