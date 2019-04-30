@@ -19,6 +19,7 @@ public class DueDateIndicator extends AbstractJiraContextProvider {
         Map<String, Object> contextMap = new HashMap<>();
         Issue currentIssue = (Issue) jiraHelper.getContextParams().get("issue");
         Timestamp dueDate = currentIssue.getDueDate();
+
         if (dueDate != null) {
             LocalDate currentTimeInDays = LocalDate.now();
             LocalDate dueDateTimeInDays = dueDate.toLocalDateTime().toLocalDate();
